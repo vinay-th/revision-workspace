@@ -30,7 +30,7 @@ Feel free to create subdirectories within each folder to further organize your p
 
 ## Contribution
 
-You can enhance this repository by adding more folders, improving the README, or sharing useful resources for revision.
+I will enhance this repository by adding more folders, improving the README, or sharing useful resources for revision.
 
 ## License
 
