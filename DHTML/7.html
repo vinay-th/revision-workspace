@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>7</title>
+  </head>
+  <body>
+    <canvas
+      id="myCanvas"
+      height="400"
+      width="700"
+      style="border: 1px solid black"
+    ></canvas>
+    <script>
+      var c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d");
+
+      ctx.moveTo(0, 0);
+      ctx.rect(10, 10, 175, 380);
+      ctx.rect(10, 155, 175, 100);
+      ctx.rect(236.66, 10, 175, 380);
+      ctx.rect(236.66, 155, 175, 100);
+      ctx.rect(473.32, 10, 175, 380);
+      ctx.rect(473.32, 155, 175, 100);
+      ctx.stroke();
+    </script>
+  </body>
+</html>
