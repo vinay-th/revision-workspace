@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE Books [
+	<!ELEMENT Books (Book)*>
+	<!ELEMENT Book (Author, Year, Publisher)>
+	<!ATTLIST Book title CDATA #REQUIRED>
+	<!ELEMENT Author (#PCDATA)>
+	<!ELEMENT Year (#PCDATA)>
+	<!ELEMENT Publisher (#PCDATA)>
+]>
+
+<Books>
+	<Book title="6969 ways to get hated">
+		<Author>Joffrey Baretheon</Author>
+		<Year>879</Year>
+		<Publisher>The Red Keep</Publisher>
+	</Book>
+	<Book title="A girl">
+		<Author>Aarya Stark</Author>
+		<Year>800</Year>
+		<Publisher>Starks</Publisher>
+	</Book>
+</Books>
