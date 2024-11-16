@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Student>
+	<StudentName>Jon Snow</StudentName>
+	<PersonalInfo>
+		<Address>
+			Castle Black, North, Westros
+		</Address>
+		<Gender>Male</Gender>
+		<MobileNo>Raven</MobileNo>
+		<Email>jon.bastard@gmail.com</Email>
+	</PersonalInfo>
+	<Result>
+		<Total>789</Total>
+		<Percentage>98.6</Percentage>
+		<Grade>A+</Grade>
+	</Result>
+</Student>

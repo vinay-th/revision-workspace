@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Email>
+	<Message
+		from="daeneryes@targeryn.west"
+		to="jon@snow.west"
+		subject="You know nothing bastard"
+		>
+		Send dragons
+	</Message>
+</Email>
