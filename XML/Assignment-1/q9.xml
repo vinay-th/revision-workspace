@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE Letter [
+	<!ELEMENT Letter (Contact, Salutation, Paragraph, Closing, Signature)>
+	<!ELEMENT Contact (Name, Address, City, Pin, State, Flag)>
+	<!ATTLIST Contact type CDATA #REQUIRED>
+	<!ELEMENT Name (#PCDATA)>
+	<!ELEMENT Address (#PCDATA)>
+	<!ELEMENT City (#PCDATA)>
+	<!ELEMENT Pin (#PCDATA)>
+	<!ELEMENT State (#PCDATA)>
+	<!ELEMENT Flag (#PCDATA)>
+	<!ELEMENT Salutation (#PCDATA)>
+	<!ELEMENT Paragraph (#PCDATA)>
+	<!ELEMENT Closing (#PCDATA)>
+	<!ELEMENT Signature (#PCDATA)>
+]>
+<Letter>
+	<Contact type="manager">
+		<Name>ffffdfg</Name>
+		<Address>rafvcx</Address>
+		<City>dafsxc</City>
+		<Pin>324534</Pin>
+		<State>fsdfgf</State>
+		<Flag>fasv</Flag>
+	</Contact>
+	<Salutation>frstgv</Salutation>
+	<Paragraph>btyfdjnbvaesfgtrsgrvcawefvfcawwefrsvcds</Paragraph>
+	<Closing>nuykuoknbv</Closing>
+	<Signature>asdfssdg</Signature>
+</Letter>
