@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE Student SYSTEM "dtd/1.dtd">
+<Student>
+	<PersonalInfo>
+		<RollNo>1</RollNo>
+		<Name>eszg</Name>
+		<Address>gzrfg</Address>
+		<Mobile>15451981265</Mobile>
+		<DOB>22-12-2022</DOB>
+		<Age>35</Age>
+		<Qualification>fzdsfg</Qualification>
+	</PersonalInfo>
+</Student>

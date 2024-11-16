@@ -9,6 +9,7 @@
 	<!ELEMENT Pin (#PCDATA)>
 	<!ELEMENT State (#PCDATA)>
 	<!ELEMENT Flag (#PCDATA)>
+	<!ATTLIST Flag gender CDATA #REQUIRED>
 	<!ELEMENT Salutation (#PCDATA)>
 	<!ELEMENT Paragraph (#PCDATA)>
 	<!ELEMENT Closing (#PCDATA)>
@@ -21,7 +22,7 @@
 		<City>dafsxc</City>
 		<Pin>324534</Pin>
 		<State>fsdfgf</State>
-		<Flag>fasv</Flag>
+		<Flag gender="M">fasv</Flag>
 	</Contact>
 	<Salutation>frstgv</Salutation>
 	<Paragraph>btyfdjnbvaesfgtrsgrvcawefvfcawwefrsvcds</Paragraph>
