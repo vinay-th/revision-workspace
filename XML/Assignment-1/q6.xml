@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE Students[
+	<!ELEMENT Students (Student)>
+	<!ELEMENT Student (Name, ID, Plan)>
+	<!ELEMENT Name (fname, lname)>
+	<!ELEMENT fname (#PCDATA)>
+	<!ELEMENT lname (#PCDATA)>
+	<!ELEMENT ID (#PCDATA)>
+	<!ELEMENT Plan (Courses)>
+	<!ELEMENT Courses (Course)+>
+	<!ATTLIST Courses year CDATA #REQUIRED>
+	<!ELEMENT Course (name, ShortName, Record)>
+	<!ELEMENT name (#PCDATA)>
+    <!ELEMENT ShortName (#PCDATA)>
+    <!ELEMENT Record (#PCDATA)>
+]>
+<Students>
+	<Student>
+        <Name>
+            <fname>Vansh</fname>
+            <lname>Vora</lname>
+        </Name>
+        <ID>101</ID>
+        <Plan>
+            <Courses year="2023">
+                <Course>
+                    <name>BSc IT</name>
+                    <ShortName>IT</ShortName>
+                    <Record>123</Record>
+                </Course>
+                <Course>
+                    <name>Design</name>
+                    <ShortName>DS</ShortName>
+                    <Record>123</Record>
+                </Course>
+            </Courses>
+        </Plan>
+    </Student>
+</Students>
