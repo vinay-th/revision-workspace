@@ -9,5 +9,6 @@
     "random": "cpp",
     "text_encoding": "cpp",
     "typeinfo": "cpp"
-  }
+  },
+  "cSpell.words": ["fibonacci"]
 }
