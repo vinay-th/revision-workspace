@@ -6,6 +6,8 @@
     "*.ts": "typescript",
     "*.tsx": "typescriptreact",
     "iostream": "cpp",
-    "random": "cpp"
+    "random": "cpp",
+    "text_encoding": "cpp",
+    "typeinfo": "cpp"
   }
 }
