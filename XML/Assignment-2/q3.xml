@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE OrderDetails SYSTEM "dtd/3.dtd">
+<OrderDetails>
+	<OrderNumber OrderDate="11-11-2011">11</OrderNumber>
+	<Orderate>455</Orderate>
+	<OrderAmount>76</OrderAmount>
+	<ItemPrice>342</ItemPrice>
+	<ItemName>sgdbdrd</ItemName>
+	<Quantity>5</Quantity>
+</OrderDetails>
