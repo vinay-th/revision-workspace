@@ -1,13 +1,20 @@
+#include <cctype>
 #include <iostream>
 #include <string>
+
 using namespace std;
 bool isPalindromeStr(string str) {
   int count = str.length();
   string revStr = "";
 
   for (int i = 0; i <= str.length(); i++) {
-    revStr += str[count];
-    count--;
+    if (str[i] != ' ') {
+      str[count] = tolower(str[count]);
+      revStr += str[count];
+      count--;
+    } else {
+      continue;
+    }
   }
   if (str == revStr) {
     return true;
@@ -16,7 +23,7 @@ bool isPalindromeStr(string str) {
   }
 }
 int main() {
-  string str = "aaa";
+  string str = "Aa a";
 
   if (isPalindromeStr(str)) {
     cout << "String is palindromic";
