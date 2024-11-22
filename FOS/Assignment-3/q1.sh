@@ -21,4 +21,3 @@ sort emp.txt
 # d. display eno and city from emp file
 echo "\n\nOnly no and city"
 cut -d '|' -f 1,3 emp.txt
-rm emp.txt
