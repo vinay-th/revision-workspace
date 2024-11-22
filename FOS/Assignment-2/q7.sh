@@ -1,9 +1,8 @@
 #!/bin/sh
-# 7. Write a shell script to accept a file name from user and check that given file exist or not, if
-# the file exist then display all the file content.
-read -p "Enter the filename: " file
-if [ ! $file ]; then
-    echo "File does not exists"
-    exit
-fi
-cat $file
+# 7. Write a shell script to read number from user and print its multiplication table.
+
+read -p "Enter a number: " n
+
+for i in $(seq 0 1 10); do
+    echo "$n * $i = $((n * i))"
+done
