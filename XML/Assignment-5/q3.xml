@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Books>
+    <book title="The Hobbit">
+        <author>J.R.R. Tolkien</author>
+        <year>1937</year>
+        <publisher>George Allen &amp; Unwin</publisher>
+    </book>
+    <book title="1984">
+        <author>George Orwell</author>
+        <year>1949</year>
+        <publisher>Secker &amp; Warburg</publisher>
+    </book>
+    <book title="To Kill a Mockingbird">
+        <author>Harper Lee</author>
+        <year>1960</year>
+        <publisher>J.B. Lippincott &amp; Co.</publisher>
+    </book>
+    <book title="The Catcher in the Rye">
+        <author>J.D. Salinger</author>
+        <year>1951</year>
+        <publisher>Little, Brown and Company</publisher>
+    </book>
+    <book title="Harry Potter and the Philosopher's Stone">
+        <author>J.K. Rowling</author>
+        <year>1997</year>
+        <publisher>Bloomsbury</publisher>
+    </book>
+</Books>

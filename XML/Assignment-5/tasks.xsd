@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xsd:element name="Tasks">
+		<xsd:complexType>
+			<xsd:all>
+				<xsd:element name="Task">
+					<xsd:complexType>
+						<xsd:attribute name="status">
+							<xsd:simpleType>
+								<xsd:restriction base="xsd:string">
+									<xsd:enumeration value="completed"/>
+									<xsd:enumeration value="pending"/>
+								</xsd:restriction>
+							</xsd:simpleType>
+						</xsd:attribute>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:all>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

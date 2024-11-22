@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Students>
+    <Student>
+        <Name>John Doe</Name>
+        <PersonalInfo>
+            <Address>123 Elm Street</Address>
+            <Birthdate>2000-05-15</Birthdate>
+            <Gender>Male</Gender>
+            <MobileNo>1234567890</MobileNo>
+        </PersonalInfo>
+        <Result>85</Result>
+    </Student>
+    <Student>
+        <Name>Jane Smith</Name>
+        <PersonalInfo>
+            <Address>456 Oak Avenue</Address>
+            <Birthdate>2001-08-22</Birthdate>
+            <Gender>Female</Gender>
+            <MobileNo>9876543210</MobileNo>
+        </PersonalInfo>
+        <Result>90</Result>
+    </Student>
+    <Student>
+        <Name>Emily Johnson</Name>
+        <PersonalInfo>
+            <Address>789 Maple Road</Address>
+            <Birthdate>1999-03-10</Birthdate>
+            <Gender>Female</Gender>
+            <MobileNo>5556667777</MobileNo>
+        </PersonalInfo>
+        <Result>78</Result>
+    </Student>
+    <Student>
+        <Name>Michael Brown</Name>
+        <PersonalInfo>
+            <Address>321 Pine Lane</Address>
+            <Birthdate>1998-12-05</Birthdate>
+            <Gender>Male</Gender>
+            <MobileNo>4445556666</MobileNo>
+        </PersonalInfo>
+        <Result>92</Result>
+    </Student>
+    <Student>
+        <Name>Sarah Wilson</Name>
+        <PersonalInfo>
+            <Address>654 Cedar Drive</Address>
+            <Birthdate>2002-07-19</Birthdate>
+            <Gender>Female</Gender>
+            <MobileNo>2223334444</MobileNo>
+        </PersonalInfo>
+        <Result>88</Result>
+    </Student>
+</Students>

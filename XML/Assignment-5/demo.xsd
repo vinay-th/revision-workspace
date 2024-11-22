@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xsd:element name="Students">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="Student" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:all>
+							<xsd:element name="Name">
+								<xsd:complexType>
+									<xsd:simpleContent>
+										<xsd:extension base="xsd:string">
+											<xsd:attribute name="surname" type="xsd:string" use="required"/>
+										</xsd:extension>
+									</xsd:simpleContent>
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="Mail">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:string">
+										<xsd:pattern value="[a-zA-Z0-9._-]+@[a-zA-Z]+\.+[a-zA-Z]{2,}"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element> 
+							<xsd:element name="MobileNo">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:integer">
+										<xsd:pattern value="\d{10}"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+							<xsd:element name="Marks">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:integer">
+										<xsd:pattern value="[0-9]|[1-9][0-9]"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+							<xsd:element name="Course">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:string">
+										<xsd:enumeration value="IT"/>
+										<xsd:enumeration value="BBA"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+						</xsd:all>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Tiffins>
+	<Tiffin>
+		<Name>Lunch</Name>
+		<Category>
+			<Veg>Biscuit</Veg>
+			<Veg>Chips</Veg>
+			<NonVeg>Kebab</NonVeg>
+		</Category>
+		<CompanyInfo>
+			<PhoneNo>686615616515</PhoneNo>
+			<Address>fjbuyrabfyjbfyj</Address>
+		</CompanyInfo>
+	</Tiffin>
+</Tiffins>
